@@ -1,14 +1,15 @@
+import Link from 'next/link';
 import React from 'react'
 
 const MainNav = () => {
     return (
         <div className="flex flex-col self-center justify-self-end gap-8">
-            <span>
+            <Link href='/'>
                 Home
-            </span>
-            <span>
+            </Link>
+            <Link href='/blog'>
                 Blog
-            </span>
+            </Link>
             <span>
                 Projects
             </span>
