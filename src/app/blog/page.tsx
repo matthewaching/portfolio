@@ -1,7 +1,11 @@
-import Image from 'next/image'
 import Link from 'next/link';
 
 const blogPosts = [
+    {
+        id: '20241106',
+        title: '2024 Life Update',
+        date: new Date('11-06-2024'),
+    },
     {
         id: '20231206',
         title: 'Some initial blog ideas',

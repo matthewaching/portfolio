@@ -2,14 +2,14 @@ import Image from 'next/image'
 
 const Post = () => {
     return (
-        <main className="flex min-h-screen flex-col justify-center p-24 gap-6">
-            <p className="leading-8">
+        <main className="flex min-h-screen flex-col justify-center p-24 gap-6 leading-7">
+            <p>
                 12/5/2023
             </p>
-            <p className="leading-8">
+            <p>
                 Hello world!
             </p>
-            <p className="leading-8">
+            <p>
                 I have decided, by some random burst of motivation, to redo my
                 entire portfolio page and blog after a much-needed hiatus. I was
                 largely unhappy with the way my last portfolio page turned out;
@@ -18,7 +18,7 @@ const Post = () => {
                 me. That&apos;s why, going into this new website, the first
                 decision I&apos;ve made is to put the app ahead of the tech and not try to force a certain tech stack.
             </p>
-            <p className="leading-8">
+            <p>
                 With this in mind, my new portfolio website is only going to
                 have one guarantee: it will be built on Next.js. This is driven
                 by my love for the framework and the transformative effect it
@@ -26,7 +26,7 @@ const Post = () => {
                 that a website that is meant to be a portrayal of my developer
                 self uses the technology I have the most passion for.
             </p>
-            <p className="leading-8">
+            <p>
                 On the flip side of this, there are many technologies this
                 website will likely not use. There will probably not be a
                 dedicated backend, outside of utilizing Vercel Serverless
@@ -37,7 +37,7 @@ const Post = () => {
                 (we&apos;re going MPA style!), no authentication, no complex
                 GraphQL or tRPC layer... You get the idea.
             </p>
-            <p className="leading-8">
+            <p>
                 Instead, these will saved be for other personal projects, where
                 their implementation will be more intentional and appropriate.
                 While I still aim to realize the many web app ideas I have
@@ -49,7 +49,7 @@ const Post = () => {
                 having the side benefit of the code being easily replicable in
                 other projects (such as my portfolio).
             </p>
-            <p className="leading-8">
+            <p>
                 THAT being said, &quot;do more projects&quot; is... ambitious.
                 As much as I love coding, I also love my many other hobbies (
                 climbing, cooking, gaming, cello-ing, etc ) and want to dedicate
@@ -65,7 +65,7 @@ const Post = () => {
                 jump straight into coding rather than have to try to
                 spontanteously brainstorm ideas.
             </p>
-            <p className="leading-8">
+            <p>
                 As a final note to this inaugural post, I will be approaching
                 this whole blog idea with a certain amount of intentionality,
                 namely by separating my usual heavily-proofread and polished
@@ -78,16 +78,16 @@ const Post = () => {
                 amount of time this overall process takes. Time is money, after
                 all.
             </p>
-            <p className="leading-8">
+            <p>
                 If you&apos;ve made it this far, thank you for stopping by and
                 sticking around! While this whole blog is meant to be mostly a
                 motivational thing for myself, I hope that my words and insight
                 were of some interest to you.
             </p>
-            <p className="leading-8">
+            <p>
                 See you around!
             </p>
-            <p className="leading-8">
+            <p>
                 -Matt
             </p>
         </main>

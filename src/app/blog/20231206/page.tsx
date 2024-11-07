@@ -1,18 +1,16 @@
-import Image from 'next/image'
-
 const Post = () => {
     return (
-        <main className="flex min-h-screen flex-col justify-center p-24 gap-6">
-            <p className="leading-8">
+        <main className="flex min-h-screen flex-col justify-center p-24 gap-6 leading-7">
+            <p>
                 12/6/2023
             </p>
-            <p className="leading-8">
+            <p>
                 Look at that, I&apos;m back here already. Even though it&apos;s
                 just a small 2-day streak, there&apos;s definitely a feeling of
                 accomplishment with following through on a consistency goal.
                 Hopefully, I can keep this train going for a while!
             </p>
-            <p className="leading-8">
+            <p>
                 So, let&apos;s start some ideas about this blog. I&apos;ve
                 already decided on two large categories for posts:
                 refined/edited and casual/unfiltered. The former will likely be
@@ -24,7 +22,7 @@ const Post = () => {
                 enough freedom to write about essentially any topic I want
                 without having to worry about tone or relevance.
             </p>
-            <p className="leading-8">
+            <p>
                 Speaking of topics, while this website will act as my dev
                 portfolio and therefore showcase mainly programming-related
                 topics, I do want to be able to write about things that
@@ -37,7 +35,7 @@ const Post = () => {
                 that&apos;ll likely be one of the first actual code
                 implementations I write for this blog.
             </p>
-            <p className="leading-8">
+            <p>
                 Now, the textbook dev implementation would be to create some
                 CRUD-like system that stores these posts in a database and
                 fetches them via an API. However, as I described in my previous
@@ -59,7 +57,7 @@ const Post = () => {
                 harder if I were just retrieving fetched data and slapping it
                 into a generic blog.tsx.
             </p>
-            <p className="leading-8">
+            <p>
                 That all being said, I should learn how to walk before I try to
                 run. At time of writing, the website has only just been
                 bootstrapped with create-next-app, and these posts exist purely
@@ -70,9 +68,9 @@ const Post = () => {
                 whoever you may be, are reading this. Let me know how
                 I&apos;ve done!
             </p>
-            <p className="leading-8">
+            <p>
                 That&apos;ll be it for now. See you soon!</p>
-            <p className="leading-8">
+            <p>
                 -Matt
             </p>
         </main>
