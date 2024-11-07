@@ -20,13 +20,19 @@ const blogPosts = [
 
 const Blog = () => {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-center p-24">
+        <main className='flex min-h-screen flex-col items-center justify-center p-24 gap-8'>
             <span>This is the blog</span>
-            {blogPosts.map(post => (
-                <div key={post.id}>
-                    <Link href={`/blog/${post.id}`}>{post.title}</Link>
-                </div>
-            ))}
+            <div className='flex flex-col items-center gap-2'>
+                {blogPosts.map(post => (
+                    <Link
+                        className='px-2 py-1 border-2 rounded border-black'
+                        key={post.id}
+                        href={`/blog/${post.id}`}
+                    >
+                        {post.title}
+                    </Link>
+                ))}
+            </div>
         </main>
     );
 };
