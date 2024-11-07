@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import MainNav from './MainNav/MainNav'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,10 +17,7 @@ const RootLayout = ({
     return (
         <html lang="en">
             <body className={inter.className}>
-                <div className='grid grid-cols-[1fr_3fr]'>
-                    <MainNav />
-                    {children}
-                </div>
+                {children}
             </body>
         </html>
     )

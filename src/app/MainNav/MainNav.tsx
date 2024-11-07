@@ -27,7 +27,7 @@ const routes: PageRoute[] = [
 
 const MainNav = () => {
     return (
-        <div className="flex flex-col self-center justify-self-end gap-16">
+        <div className="p-24 grid grid-cols-2 gap-16">
             {routes.map(route => (
                 <Link
                     key={route.id}
